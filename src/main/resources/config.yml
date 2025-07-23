@@ -1,0 +1,39 @@
+messages:
+  prefix: "&7[&bTpaGui&7] "
+  console-list-header: "&aList of current online players:"
+  console-list-format: "&7- &f{player}"
+  player-offline: "&cThe player is offline!"
+  no-players-online: "&cThere are currently no other online players!"
+  form-error: "&cError in form processing, please try again!"
+  gui:
+    title: "Transfer Request Menu - Page {page}"
+    skull:
+      name: "&6{player}"
+      lore:
+        - "&eLeft button: Teleport to this player"
+        - "&eRight click: Request the player to teleport to you``"
+    navigation:
+      previous-page: "&aPrevious Page"
+      next-page: "&aNext Page"
+  form:
+    title: "Transfer Request Menu"
+    player-select: "Select Player"
+    tpahere-toggle: "Request player to teleport to me"
+    request:
+      title: "Send Request"
+      content-to: "§e{player} §fWant to teleport to your location"
+      content-here: "§e{player} §fWants you to teleport to his location"
+      accept: "§aAccept"
+      deny: "§cReject"
+      accepted: "&aYou accepted &e{player} &a's teleport request"
+      denied: "&cYou rejected &e{player} &c's request to teleport"
+      closed: "&7You closed the teleport request from &e{player} &7"
+
+# 命令配置
+commands:
+  accept:
+    - "tpaccept"
+#    - "tpaaccept"
+  deny:
+    - "tpdeny"
+#    - "tpadeny"
